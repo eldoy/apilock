@@ -1,0 +1,18 @@
+{
+  "name": "apilock",
+  "version": "0.1.0",
+  "description": "API Lock",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "author": "Vidar Eldøy <vidar@eldoy.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "wcrypt": "0.0.3"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
