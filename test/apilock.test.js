@@ -7,7 +7,7 @@ const locker = wcrypt({ password, salt })
 const time = new Date().getTime().toString()
 
 describe('apilock', () => {
-  it('should be an object', async () => {
+  it('should be valid', async () => {
     const key = await locker.encrypt(time)
     const invalid = await apilock(key)
     expect(invalid).toEqual(false)

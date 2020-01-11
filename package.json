@@ -8,6 +8,10 @@
   },
   "author": "Vidar Eldøy <vidar@eldoy.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eldoy/apilock"
+  },
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "wcrypt": "0.0.3"
